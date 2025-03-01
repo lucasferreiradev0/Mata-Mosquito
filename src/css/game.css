@@ -34,3 +34,10 @@
     width: 80px;
     height: 80px;
 }
+
+.left {
+    transform: scaleX(-1);
+}
+.right {
+    transform: scalex(1);
+}

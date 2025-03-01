@@ -12,7 +12,7 @@
     <!-- import CSS -->
     <link rel="stylesheet" href="../css/styles.css">
     <!-- import js -->
-    <script src="../js/game.js"></script>
+    <script src="../js/game.js" defer></script>
     <link rel="shortcut icon" href="../assets/icon.ico" type="image/x-icon">
     <title>Mata Mosquito</title>
 </head>
@@ -20,9 +20,9 @@
     <div id="container_game">
         <div id="display">
             <div>
-                <img src="../assets/image/cheio.png">
-                <img src="../assets/image/cheio.png">
-                <img src="../assets/image/cheio.png">  
+                <img id="v1" src="../assets/image/cheio.png">
+                <img id="v2" src="../assets/image/cheio.png">
+                <img id="v3" src="../assets/image/cheio.png">  
             </div>
             <div id="box_time">
                 Tempo disponível: <span id="time">00</span>
