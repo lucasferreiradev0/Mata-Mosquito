@@ -41,3 +41,9 @@
 .right {
     transform: scalex(1);
 }
+
+@media screen and (max-width: 400px) {
+    .image {
+        width: 400px;
+    }
+}
